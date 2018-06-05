@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="MySolution">
+  <BOModel>
+    <Class Name="MySolution.Module.BusinessObjects.Contact">
+      <OwnMembers>
+        <Member Name="WebPageAddress" Index="0" />
+        <Member Name="NickName" Index="1" />
+        <Member Name="SpouseName" Index="2" />
+        <Member Name="TitleOfCourtesy" Index="3" />
+        <Member Name="Anniversary" Index="4" />
+        <Member Name="Notes" Index="5" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="18.1.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Contact_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Contact">
+              <LayoutGroup Id="Contact_col1">
+                <LayoutItem Id="WebPageAddress" ViewItem="WebPageAddress" ShowCaption="" Index="0" IsNewNode="True" />
+                <LayoutItem Id="Anniversary" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Contact_col2">
+                <LayoutItem Id="TitleOfCourtesy" Index="0" />
+                <LayoutItem Id="WebPageAddress" Index="0" Removed="True" />
+                <LayoutItem Id="Anniversary" ViewItem="Anniversary" ShowCaption="" Index="1" IsNewNode="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Contact_ListView">
+      <Columns>
+        <ColumnInfo Id="TitleOfCourtesy" Index="0" />
+        <ColumnInfo Id="FullName" Index="1" />
+        <ColumnInfo Id="Birthday" Index="2" />
+        <ColumnInfo Id="Email" Index="3" />
+        <ColumnInfo Id="Anniversary" Index="4" />
+        <ColumnInfo Id="NickName" Index="5" />
+        <ColumnInfo Id="SpouseName" Index="6" />
+        <ColumnInfo Id="WebPageAddress" Index="7" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

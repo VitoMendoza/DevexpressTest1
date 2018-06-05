@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Type="DevExpress.CodeRush.Foundation.Navigation.QuickNav.Filters.FilterOptions">
+  <Options Language="Neutral">
+    <Items>
+      <Item Id="{3af21293-0b35-4d6b-8ad4-7f1649d22489}">
+        <FilterName>2 - Project</FilterName>
+        <IsActive>False</IsActive>
+      </Item>
+      <Item Id="{7832f7b7-01a3-4633-8524-8347247d0fc8}">
+        <FilterName>3 - Namespace</FilterName>
+        <IsActive>False</IsActive>
+      </Item>
+      <Item Id="{d7afbbc9-31e0-4e44-813f-777518fa4ca0}">
+        <FilterName>4 - File</FilterName>
+        <IsActive>False</IsActive>
+      </Item>
+      <Item Id="{82e18373-cbfd-4220-918b-c1887b7e7093}">
+        <FilterName>C - Class</FilterName>
+      </Item>
+      <Item Id="{ff156d19-07d0-43a8-bc05-f21e678a2467}">
+        <FilterName>S - Struct</FilterName>
+      </Item>
+      <Item Id="{e3355626-eb92-4dcf-b988-e13e2b3bdaf2}">
+        <FilterName>I - Interface</FilterName>
+      </Item>
+      <Item Id="{e225274a-4d12-4077-8994-e5ed85c25c0a}">
+        <FilterName>E - Enum</FilterName>
+      </Item>
+      <Item Id="{7171147c-a6d3-45c5-bc88-71bda5ebb741}">
+        <FilterName>D - Delegate</FilterName>
+      </Item>
+      <Item Id="{4d77f8c8-f99c-4c5f-9303-1b5f4939d7cb}">
+        <FilterName>M - Methods</FilterName>
+      </Item>
+      <Item Id="{c4f5077f-0f54-487e-b022-6a000cd6efe5}">
+        <FilterName>P - Properties</FilterName>
+      </Item>
+      <Item Id="{f7b428ed-e212-4d80-9a17-407d64b71943}">
+        <FilterName>V - Events</FilterName>
+      </Item>
+      <Item Id="{de252a3f-7c43-452b-a436-54f13a408f02}">
+        <FilterName>F - Fields</FilterName>
+      </Item>
+      <Item Id="{5c3bf07a-3f9d-4d07-9998-9fcfa8734669}">
+        <FilterName>B - Public</FilterName>
+      </Item>
+      <Item Id="{5449d0e7-3385-47c0-b4be-7b4a857c16f9}">
+        <FilterName>W - Private</FilterName>
+      </Item>
+      <Item Id="{c089567b-5af0-4446-bdf2-d75898cf424e}">
+        <FilterName>O - Protected</FilterName>
+      </Item>
+      <Item Id="{afcce4f8-b57b-4f5d-a8c7-7f295dd5e45a}">
+        <FilterName>N - Internal/Friend</FilterName>
+      </Item>
+      <Item Id="{4723d026-f0f7-4635-a01a-19f7cabcc62f}">
+        <FilterName>T - Protected Internal/Friend</FilterName>
+      </Item>
+    </Items>
+  </Options>
+</Root>
