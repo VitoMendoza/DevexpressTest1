@@ -1,2 +1,31 @@
-﻿<?xml version="1.0" ?>
-<Application />
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="18.1.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="18.1.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Contact_DetailView">
+      <Items>
+        <PropertyEditor Id="Department" PropertyName="Department" LookupProperty="Office" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Contact">
+              <LayoutGroup Id="Contact_col2">
+                <LayoutItem Id="Department" Index="3" />
+                <LayoutItem Id="Manager" Index="4" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Contact_ListView">
+      <Columns>
+        <ColumnInfo Id="Department" LookupProperty="Office" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

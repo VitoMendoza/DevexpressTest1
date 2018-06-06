@@ -12,9 +12,10 @@
       </OwnMembers>
     </Class>
   </BOModel>
-  <Options>
-    <LayoutManagerOptions RequiredFieldMark="*" />
-  </Options>
+  <CreatableItems>
+    <CreatableItem ClassName="DevExpress.Persistent.BaseImpl.Note" IsNewNode="True" />
+    <CreatableItem ClassName="MySolution.Module.BusinessObjects.Position" ImageName="BO_Position" />
+  </CreatableItems>
   <SchemaModules>
     <SchemaModule Name="SystemModule" Version="18.1.3.0" IsNewNode="True" />
   </SchemaModules>
@@ -29,7 +30,6 @@
                 <LayoutItem Id="Anniversary" Removed="True" />
               </LayoutGroup>
               <LayoutGroup Id="Contact_col2">
-                <LayoutItem Id="TitleOfCourtesy" Index="0" />
                 <LayoutItem Id="WebPageAddress" Index="0" Removed="True" />
                 <LayoutItem Id="Anniversary" ViewItem="Anniversary" ShowCaption="" Index="1" IsNewNode="True" />
               </LayoutGroup>

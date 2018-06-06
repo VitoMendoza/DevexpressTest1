@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Logo="ExpressAppLogo">
-  <Options UIType="TabbedMDI" FormStyle="Ribbon" Skin="DevExpress Dark Style" />
+  <Options UIType="MultipleWindowSDI" FormStyle="Ribbon" Skin="DevExpress Dark Style" />
   <SchemaModules>
     <SchemaModule Name="SystemModule" Version="18.1.3.0" IsNewNode="True" />
     <SchemaModule Name="SystemWindowsFormsModule" Version="18.1.3.0" IsNewNode="True" />
